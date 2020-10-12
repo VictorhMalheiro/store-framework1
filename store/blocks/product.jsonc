@@ -31,9 +31,10 @@
     },
     "children": [
       "product-name",
+      "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
-      "flex-layout.row#shipping-simulator",
+      "shipping-simulator",
       "buy-button"
     ]
   },
@@ -53,10 +54,5 @@
     "props": {
       "hideImpossibleCombinations": false
     }
-  },
-  "flex-layout.row#shipping-simulator": {
-    "children": [
-      "shipping-simulator"
-    ]
   }
 }
